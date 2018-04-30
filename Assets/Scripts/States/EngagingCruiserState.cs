@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EngagingCruiserState : CruiserState
+public class EngagingCruiserState : ShipState
 {
 
     public EngagingCruiserState(GameObject cruiser) : base(cruiser)
@@ -11,19 +11,20 @@ public class EngagingCruiserState : CruiserState
 
     public override void Enter()
     {
-        if (cruiser.GetComponent<Pursue>() != null && cruiser.GetComponent<Wander>() != null)
+        if (ship.GetComponent<Pursue>() != null && ship.GetComponent<Wander>() != null)
         {
-            cruiser.GetComponent<Pursue>().weight = 5;
-            cruiser.GetComponent<Pursue>().target = GameObject.FindGameObjectWithTag("Yamato").GetComponent<Boid>();
-            cruiser.GetComponent<Wander>().weight = 0;
+            ship.GetComponent<Pursue>().weight = 5;
+            Debug.Log("Setting target");
+            ship.GetComponent<Pursue>().target = GameObject.FindGameObjectWithTag("Yamato").GetComponent<Boid>();
+            ship.GetComponent<Wander>().weight = 0;
         }
     }
 
     public override void Exit()
     {
-        if (cruiser.GetComponent<Wander>() != null)
+        if (ship.GetComponent<Wander>() != null)
         {
-            cruiser.GetComponent<Wander>().weight = 1;
+            ship.GetComponent<Wander>().weight = 1;
         }
     }
 

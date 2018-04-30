@@ -2,32 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FiringCruiserState : CruiserState
+public class FiringCruiserState : ShipState
 {
 
-    public FiringCruiserState(GameObject cruiser) : base(cruiser)
+    public FiringCruiserState(GameObject ship) : base(ship)
     {
     }
 
     public override void Enter()
     {
-        if (cruiser.GetComponent<Pursue>() != null && cruiser.GetComponent<Wander>() != null)
-        {
-            cruiser.GetComponent<Pursue>().weight = 1;
-            cruiser.GetComponent<Pursue>().target = GameObject.FindGameObjectWithTag("Yamato").GetComponent<Boid>();
-            cruiser.GetComponent<Wander>().weight = 0;
-        }
+        Debug.Log("In firing state");
     }
 
     public override void Exit()
     {
-        if (cruiser.GetComponent<Wander>() != null)
-        {
-            cruiser.GetComponent<Wander>().weight = 1;
-        }
     }
 
     public override void Update()
     {
+        ship.GetComponent<CruiserController>().FireWeapons();
     }
 }

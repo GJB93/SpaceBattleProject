@@ -2,26 +2,26 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class IdleCruiserState : CruiserState {
-
-    public IdleCruiserState(GameObject cruiser):base(cruiser)
+public class IdleCruiserState : ShipState
+{
+    public IdleCruiserState(GameObject ship):base(ship)
     {
     }
 
     public override void Enter()
     {
-        if (cruiser.GetComponent<Pursue>() != null)
+        if (ship.GetComponent<Pursue>() != null)
         {
-            cruiser.GetComponent<Pursue>().weight = 0;
-            cruiser.GetComponent<Pursue>().target = null;
+            ship.GetComponent<Pursue>().weight = 0;
+            ship.GetComponent<Pursue>().target = null;
         }
     }
 
     public override void Exit()
     {
-        if (cruiser.GetComponent<Wander>() != null)
+        if (ship.GetComponent<Wander>() != null)
         {
-            cruiser.GetComponent<Wander>().weight = 0;
+            ship.GetComponent<Wander>().weight = 0;
         }
     }
 
