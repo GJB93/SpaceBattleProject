@@ -1,0 +1,198 @@
+fileFormatVersion: 2
+guid: 2954f6b9bf69b93418e300cabd30ee8f
+timeCreated: 1523982700
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Auxiliary_Turret
+    100002: Body
+    100004: //RootNode
+    100006: Main_Beam
+    100008: Main_Gun
+    100010: MiddleMissile
+    100012: Missile_L
+    100014: Missile_R
+    100016: Parmelia-class aircraft carrier _arm
+    400000: Auxiliary_Turret
+    400002: Body
+    400004: //RootNode
+    400006: Main_Beam
+    400008: Main_Gun
+    400010: MiddleMissile
+    400012: Missile_L
+    400014: Missile_R
+    400016: Parmelia-class aircraft carrier _arm
+    2100000: "\u80F4\u4E0A"
+    2100002: Underarm
+    2100004: Light-emitting wheel
+    2100006: Light emitting wheel edge
+    2100008: black
+    2100010: Imports
+    2100012: Dark green
+    2100014: Substructure
+    2100016: Beam gun
+    2100018: Sub muzzle
+    2100020: Lower edge
+    2100022: Main muzzle
+    2100024: Beam emission
+    2100026: Main beam
+    2100028: missile
+    4300000: Body
+    9500000: //RootNode
+    13700000: Body
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Beam emission
+    second: {fileID: 2100000, guid: d1e6997ab30572b40a44325c7621575e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Beam gun
+    second: {fileID: 2100000, guid: 9e52128189d9f6c45b5845f5cd002afc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dark green
+    second: {fileID: 2100000, guid: 4082d9cf9398b674dbf500290cbe2549, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Imports
+    second: {fileID: 2100000, guid: b9a072af903c5a64c956c3cb8bfd4a0c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light emitting wheel edge
+    second: {fileID: 2100000, guid: 4803c127652e81445b5a5f07af8066b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light-emitting wheel
+    second: {fileID: 2100000, guid: 0cf0477df3939c748bfc1f611437820a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lower edge
+    second: {fileID: 2100000, guid: 8e28a4fc51327ba418b65d4b23ee6acb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Main beam
+    second: {fileID: 2100000, guid: 4c4a7378797fd3048b75377ee4e15596, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Main muzzle
+    second: {fileID: 2100000, guid: d8a1275046ec1c44283c7bdeab40f956, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sub muzzle
+    second: {fileID: 2100000, guid: 65c8907337d96d6419ccfc42c8f572a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Substructure
+    second: {fileID: 2100000, guid: 353c14f2ef6ced444bb2556dd3159c68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Underarm
+    second: {fileID: 2100000, guid: 8f05d246f01e12348a0bcd8f7d513775, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: black
+    second: {fileID: 2100000, guid: 3825b121bf528b04dae5a6234198dd06, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: missile
+    second: {fileID: 2100000, guid: e600434b7c8f8094bbae43f4e00f83dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u80F4\u4E0A"
+    second: {fileID: 2100000, guid: 3d7ac6457b191df41b11572f0eaa7978, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

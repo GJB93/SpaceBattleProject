@@ -1,0 +1,722 @@
+fileFormatVersion: 2
+guid: d62840a838e991a42a1b928ad47dae39
+timeCreated: 1523993236
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: AWB-02X v200_arm
+    100002: Backrest
+    100004: Backrest_Drive
+    100006: Backrest_Swing
+    100008: Barrel1
+    100010: Barrel2
+    100012: Barrel3
+    100014: Base
+    100016: Body
+    100018: Cockpit
+    100020: CockpitLegPut
+    100022: Console
+    100024: Display
+    100026: Display_Movable
+    100028: FGear_Drive
+    100030: FGear_Hub
+    100032: FGear_StayL
+    100034: FGear_StayR
+    100036: FGearAux1
+    100038: FGearAux2
+    100040: FHatch
+    100042: FHatch_Drive
+    100044: //RootNode
+    100046: FTire
+    100048: Handle
+    100050: Handle_Drive
+    100052: LCanard_Down
+    100054: LCanard_Roll
+    100056: LLaser_Lens
+    100058: LLaser_Unit
+    100060: LLowerIn_The_Flap
+    100062: LLowerMain_Wing
+    100064: LLowerOutside_The_Flap
+    100066: LNozzleLower
+    100068: LNozzleUpper
+    100070: LReplenishmentLower
+    100072: LReplenishmentUpper
+    100074: LRHatch
+    100076: LScrumin
+    100078: LScrumout
+    100080: LShield_Wing_Movable_Roll
+    100082: LShield_Wings
+    100084: LSlat
+    100086: LTailWing
+    100088: LTailWing_Performance
+    100090: LUpperIn_The_Flap
+    100092: LUpperOutside_The_Flap
+    100094: RA_Hub
+    100096: Rail_Unit
+    100098: RCanard_Down
+    100100: RCanard_Roll
+    100102: RCanopy
+    100104: RLaser_Lens
+    100106: RLaser_Unit
+    100108: RLowerIn_The_Flap
+    100110: RLowerMain_Wing
+    100112: RLowerOutside_The_Flap
+    100114: RNozzleLower
+    100116: RNozzleUpper
+    100118: RReplenishmentLower
+    100120: RReplenishmentUpper
+    100122: RRHatch
+    100124: RScrumin
+    100126: RScrumout
+    100128: RShield_Wing_Movable_Roll
+    100130: RShield_Wings
+    100132: RSlat
+    100134: RTailWing
+    100136: RTailWing_Performance
+    100138: RTire
+    100140: RUpperIn_The_Flap
+    100142: RUpperOutside_The_Flap
+    100144: WUnit
+    400000: AWB-02X v200_arm
+    400002: Backrest
+    400004: Backrest_Drive
+    400006: Backrest_Swing
+    400008: Barrel1
+    400010: Barrel2
+    400012: Barrel3
+    400014: Base
+    400016: Body
+    400018: Cockpit
+    400020: CockpitLegPut
+    400022: Console
+    400024: Display
+    400026: Display_Movable
+    400028: FGear_Drive
+    400030: FGear_Hub
+    400032: FGear_StayL
+    400034: FGear_StayR
+    400036: FGearAux1
+    400038: FGearAux2
+    400040: FHatch
+    400042: FHatch_Drive
+    400044: //RootNode
+    400046: FTire
+    400048: Handle
+    400050: Handle_Drive
+    400052: LCanard_Down
+    400054: LCanard_Roll
+    400056: LLaser_Lens
+    400058: LLaser_Unit
+    400060: LLowerIn_The_Flap
+    400062: LLowerMain_Wing
+    400064: LLowerOutside_The_Flap
+    400066: LNozzleLower
+    400068: LNozzleUpper
+    400070: LReplenishmentLower
+    400072: LReplenishmentUpper
+    400074: LRHatch
+    400076: LScrumin
+    400078: LScrumout
+    400080: LShield_Wing_Movable_Roll
+    400082: LShield_Wings
+    400084: LSlat
+    400086: LTailWing
+    400088: LTailWing_Performance
+    400090: LUpperIn_The_Flap
+    400092: LUpperOutside_The_Flap
+    400094: RA_Hub
+    400096: Rail_Unit
+    400098: RCanard_Down
+    400100: RCanard_Roll
+    400102: RCanopy
+    400104: RLaser_Lens
+    400106: RLaser_Unit
+    400108: RLowerIn_The_Flap
+    400110: RLowerMain_Wing
+    400112: RLowerOutside_The_Flap
+    400114: RNozzleLower
+    400116: RNozzleUpper
+    400118: RReplenishmentLower
+    400120: RReplenishmentUpper
+    400122: RRHatch
+    400124: RScrumin
+    400126: RScrumout
+    400128: RShield_Wing_Movable_Roll
+    400130: RShield_Wings
+    400132: RSlat
+    400134: RTailWing
+    400136: RTailWing_Performance
+    400138: RTire
+    400140: RUpperIn_The_Flap
+    400142: RUpperOutside_The_Flap
+    400144: WUnit
+    2100000: W unit_hole
+    2100002: Display table
+    2100004: R canopy edge
+    2100006: F canopy edge
+    2100008: "R\uFF77\uFF6C\uFF89\uFF8B\uFF9F\u88CF"
+    2100010: "F\uFF77\uFF6C\uFF89\uFF8B\uFF9F\u88CF"
+    2100012: R canopy table
+    2100014: F canopy table
+    2100016: Display operation_nozzle
+    2100018: Display frame _ nozzle
+    2100020: Console Detail _ Nozzle
+    2100022: Shield wing movable main
+    2100024: Shield wing_ main
+    2100026: Laser lens 4
+    2100028: Laser lens 3
+    2100030: Laser lens 2
+    2100032: Laser lens 1
+    2100034: Laser lens base _ hole
+    2100036: Laser lens table _ nozzle
+    2100038: Laser lens stand _ main
+    2100040: Laser unit _ main
+    2100042: Supply 2 _ Nozzle
+    2100044: Supply 1 _ Nozzle
+    2100046: Barrel 3 _ Nozzle L
+    2100048: Barrel 3 _ Nozzle
+    2100050: Barrel 2 _ Nozzle L
+    2100052: Barrel 2 _ Nozzle
+    2100054: Barrel 1 _ Nozzle L
+    2100056: Barrel 1 _ Nozzle
+    2100058: Rail unit _ nozzle L
+    2100060: Rail unit _ Nozzle
+    2100062: W unit _ nozzle L
+    2100064: W unit _ nozzle
+    2100066: W unit _ main
+    2100068: Console display 1
+    2100070: Canopy drive _ Main
+    2100072: Gear hatch drive
+    2100074: R Gear Hatch _sub 1
+    2100076: R Gear Hatch Main
+    2100078: Gear Hatch _sub 2
+    2100080: Backrest
+    2100082: Backrest swing
+    2100084: Backrest drive
+    2100086: Handle
+    2100088: Handle catch
+    2100090: Cockpit foot placement
+    2100092: cockpit
+    2100094: Gear drive system
+    2100096: Tire (for both front and rear)
+    2100098: Rim (for both front and rear)
+    2100100: Hub (rear wheel)
+    2100102: Hub (front wheel)
+    2100104: Stay auxiliary
+    2100106: Stay
+    2100108: Slat _sub 1
+    2100110: Flap out_sub1
+    2100112: Flap out_ main
+    2100114: Flap in _ sub 1
+    2100116: Tail function _sub1
+    2100118: Tail function _ main
+    2100120: Main wing _ sub 1
+    2100122: Main wing _ main
+    2100124: Tail _sub1
+    2100126: Tail wing main
+    2100128: Canard receiving _sub 1
+    2100130: Canard receiving _ main
+    2100132: Canard wing _sub 1
+    2100134: Canard main wing main
+    2100136: Nozzle above
+    2100138: Scrum out_ nozzle
+    2100140: Scrum out_sub1
+    2100142: Scrum out_ main
+    2100144: Scrum in_sub1
+    2100146: Scrum in _ Main
+    2100148: Body_out hole
+    2100150: Body _in hole
+    2100152: Body _ nozzle
+    2100154: Body_sub1
+    2100156: BODY _ MAIN
+    2100158: Console display 2
+    2100160: Back of display
+    4300000: Body
+    9500000: //RootNode
+    13700000: Body
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BODY _ MAIN
+    second: {fileID: 2100000, guid: 1b892047bf09d58489a782d9c594312e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Back of display
+    second: {fileID: 2100000, guid: 207b159cf8f119f4597cf385b1767b01, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Backrest
+    second: {fileID: 2100000, guid: 241fd447c22d3c147a810e5de8207912, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Backrest drive
+    second: {fileID: 2100000, guid: 2f2812c354c41d64f951901e76a0e9eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Backrest swing
+    second: {fileID: 2100000, guid: af611e9deacbdea4aa7f94f3cba3f7f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrel 1 _ Nozzle
+    second: {fileID: 2100000, guid: b50da7f4f8e998d46811998c872b590b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrel 1 _ Nozzle L
+    second: {fileID: 2100000, guid: 8a8cd807f7d04ee449c5c61d795da277, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrel 2 _ Nozzle
+    second: {fileID: 2100000, guid: def2ef35bc9b13543bb3d0fcb4fe7c70, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrel 2 _ Nozzle L
+    second: {fileID: 2100000, guid: dfdfe2cced39d2c4f8d8b62ac5a618aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrel 3 _ Nozzle
+    second: {fileID: 2100000, guid: 41c1c4fcd976ad2488b028325efc37b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrel 3 _ Nozzle L
+    second: {fileID: 2100000, guid: e0c132c000f7211489c46905e0a3830c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body _ nozzle
+    second: {fileID: 2100000, guid: 5b850373ecd538947839f18616e44051, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body _in hole
+    second: {fileID: 2100000, guid: 265e178b254453646a8393aee5636324, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body_out hole
+    second: {fileID: 2100000, guid: 3e40d12ab2ba77f42ad000baed3cf737, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body_sub1
+    second: {fileID: 2100000, guid: f15c8d9a15cae94448c8b7f2f20d3cde, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Canard main wing main
+    second: {fileID: 2100000, guid: a3ddd4348d8410b4da3c8a27befb80be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Canard receiving _ main
+    second: {fileID: 2100000, guid: 6d556d6fe907b144e95212d05ff30b72, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Canard receiving _sub 1
+    second: {fileID: 2100000, guid: 261aafec1be511e4c9af2f6a498c8753, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Canard wing _sub 1
+    second: {fileID: 2100000, guid: be4008bc25ad34e4ab262a8e897fc03c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Canopy drive _ Main
+    second: {fileID: 2100000, guid: a9ffcc746d5076245af62882f493327d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cockpit foot placement
+    second: {fileID: 2100000, guid: d851435291f8f3045af50726aacbc57b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Console Detail _ Nozzle
+    second: {fileID: 2100000, guid: 2d6762c69a2acb949a2a602766810636, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Console display 1
+    second: {fileID: 2100000, guid: ce692aa531eaa6046a3f1e349c60eada, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Console display 2
+    second: {fileID: 2100000, guid: 76b23e83861a66e4893614f484996fa8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Display frame _ nozzle
+    second: {fileID: 2100000, guid: 8d32d44f2636a5d478f86cf21ddbb3c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Display operation_nozzle
+    second: {fileID: 2100000, guid: b6c07edd8d1074b47abc0bacf3312aa3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Display table
+    second: {fileID: 2100000, guid: b328f45d4fab24645a5c3a211a8dbcb5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: F canopy edge
+    second: {fileID: 2100000, guid: 6c30402501ab664498e7cc0e0119b43a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: F canopy table
+    second: {fileID: 2100000, guid: cf885ff6e6b407543bc0340fb0f1d0bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Flap in _ sub 1
+    second: {fileID: 2100000, guid: 12fd296a48c7ab14f83d48616dc013c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Flap out_ main
+    second: {fileID: 2100000, guid: b522628b6eb4bad4cb3fc915f5d1f2de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Flap out_sub1
+    second: {fileID: 2100000, guid: 54671759fd2acd441ba5893fd3374e31, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "F\uFF77\uFF6C\uFF89\uFF8B\uFF9F\u88CF"
+    second: {fileID: 2100000, guid: 8ecf729f8c0583c409963d9568d0254b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gear Hatch _sub 2
+    second: {fileID: 2100000, guid: 9e9cde6697891374a889d1933795d210, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gear drive system
+    second: {fileID: 2100000, guid: ecb16d91f5631d84ebcd28ea9057a098, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gear hatch drive
+    second: {fileID: 2100000, guid: eb152ee1f5a53894fbe0607bde5398c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Handle
+    second: {fileID: 2100000, guid: 6b69b1ae1fac3b348b3b7def48f0530c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Handle catch
+    second: {fileID: 2100000, guid: 4627b2f7889432f46bc6bee3fe608a9c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hub (front wheel)
+    second: {fileID: 2100000, guid: 2900532606962be4aafbc39f0520fd45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hub (rear wheel)
+    second: {fileID: 2100000, guid: 1b3b7c0b0abb78e48bf86adc72fa5cd7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Laser lens 1
+    second: {fileID: 2100000, guid: cf314dc02125321468db118e914d5bb8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Laser lens 2
+    second: {fileID: 2100000, guid: 47f308872c4a1444d9e587658aa42010, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Laser lens 3
+    second: {fileID: 2100000, guid: d2d5aed8f943fe9459cf4ccd84ea2470, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Laser lens 4
+    second: {fileID: 2100000, guid: 2a3a379549b41984dabbd70fdda58127, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Laser lens base _ hole
+    second: {fileID: 2100000, guid: 433d1fe5f667a3746b1c1819c9f967cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Laser lens stand _ main
+    second: {fileID: 2100000, guid: 5755e4cc3eb088c47889ab8b1585f4a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Laser lens table _ nozzle
+    second: {fileID: 2100000, guid: e98beb0f6252956428b1b6b102ba54a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Laser unit _ main
+    second: {fileID: 2100000, guid: 09c25cfcd32ec23448dbe7bc203603c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Main wing _ main
+    second: {fileID: 2100000, guid: 5cf39e7f80b076540a0abfeb42f09ecb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Main wing _ sub 1
+    second: {fileID: 2100000, guid: a678357cbba05eb4db43ad9e6ba28609, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nozzle above
+    second: {fileID: 2100000, guid: 109d2dbece06a3445902407aa0592403, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: R Gear Hatch Main
+    second: {fileID: 2100000, guid: 0c753e1e5f0da63448f2dc6661c9dd8b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: R Gear Hatch _sub 1
+    second: {fileID: 2100000, guid: d5f407dc69042a0469317281ac5d7f59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: R canopy edge
+    second: {fileID: 2100000, guid: e19d3dfd7b106964e96ad3627a5e2694, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: R canopy table
+    second: {fileID: 2100000, guid: 4745b4451c025454fa67f874da6ae59e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rail unit _ Nozzle
+    second: {fileID: 2100000, guid: 0cf998bc868afac499f10d73fd756c5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rail unit _ nozzle L
+    second: {fileID: 2100000, guid: 7c3faf5220b5d234aa567947c4f8db50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rim (for both front and rear)
+    second: {fileID: 2100000, guid: 883a9120291713947917fa679a11a5d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "R\uFF77\uFF6C\uFF89\uFF8B\uFF9F\u88CF"
+    second: {fileID: 2100000, guid: f46b0941cffb09d478ab62ad5d18f25d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Scrum in _ Main
+    second: {fileID: 2100000, guid: aee37f12787c65f4fa3a1e916f11db39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Scrum in_sub1
+    second: {fileID: 2100000, guid: 5d7993a77eb94ea44a56f85f0fdfbc9d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Scrum out_ main
+    second: {fileID: 2100000, guid: 73c846b0d03bb7a4c8c6b2590aeee738, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Scrum out_ nozzle
+    second: {fileID: 2100000, guid: aa30ad8e1467c1b42aeec61dec2504f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Scrum out_sub1
+    second: {fileID: 2100000, guid: e89300d0f074acc44a0b74cde04e95a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shield wing movable main
+    second: {fileID: 2100000, guid: 5d6ac35a53e98064491d420fc21b3026, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shield wing_ main
+    second: {fileID: 2100000, guid: 7e8d8e90d78d11e4d936e1b7bd0330cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Slat _sub 1
+    second: {fileID: 2100000, guid: 69ff34ca54030a847897ffd58652f717, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stay
+    second: {fileID: 2100000, guid: 7669837e193ffb248b7821525e5b93c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stay auxiliary
+    second: {fileID: 2100000, guid: 7036e4d0c2c16d14385b4a1c01f4db67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Supply 1 _ Nozzle
+    second: {fileID: 2100000, guid: e59f8c8e3da1f814a8a077b4b678b74c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Supply 2 _ Nozzle
+    second: {fileID: 2100000, guid: 17a00271c1d71c6429f93a7af3d74f26, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tail _sub1
+    second: {fileID: 2100000, guid: dbdb694e334bc6f44a6dbe2e93d84525, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tail function _ main
+    second: {fileID: 2100000, guid: d86d32e69379fd643a25040d0d9097e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tail function _sub1
+    second: {fileID: 2100000, guid: b4a4b40894f34544e8c8ff845aec357d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tail wing main
+    second: {fileID: 2100000, guid: 2d73674cf5472fe41805a258a4c12384, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tire (for both front and rear)
+    second: {fileID: 2100000, guid: df14c65641efb474c9750ca10120e0f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W unit _ main
+    second: {fileID: 2100000, guid: a6ec427b90d4a544297f57b6a0335741, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W unit _ nozzle
+    second: {fileID: 2100000, guid: 585fabb9023485b4cb84f0f8265edd2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W unit _ nozzle L
+    second: {fileID: 2100000, guid: fe850abdd4070474abe63f81a9dac46c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: W unit_hole
+    second: {fileID: 2100000, guid: a358352418c31e74d8ed6c11c3690d08, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cockpit
+    second: {fileID: 2100000, guid: 1acf71b7479d6ae4f92227c4ce64332f, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.025
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

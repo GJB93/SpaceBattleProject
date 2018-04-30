@@ -1,0 +1,238 @@
+fileFormatVersion: 2
+guid: 1e71db3967cc66d46a53f5ff17950df7
+timeCreated: 1523982706
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: B_L
+    100002: B_R
+    100004: BackMissile1_L
+    100006: BackMissile1_R
+    100008: BackMissile2_L
+    100010: BackMissile2_R
+    100012: BackMissile3_L
+    100014: BackMissile3_R
+    100016: BackMissile4_L
+    100018: BackMissile4_R
+    100020: BackTorpedo_L
+    100022: BackTorpedo_R
+    100024: Barrel
+    100026: Beam4Back_L
+    100028: Beam4Back_R
+    100030: Beam4Front_L
+    100032: Beam4Front_R
+    100034: Body
+    100036: BTip_L
+    100038: BTip_R
+    100040: CannonBack
+    100042: CannonLower
+    100044: //RootNode
+    100046: FrontMissile3_L
+    100048: FrontMissile3_R
+    100050: FrontMissile4_L
+    100052: FrontMissile4_R
+    100054: FrontMissile5_L
+    100056: FrontMissile5_R
+    100058: Kripitera class destroyer _arm
+    100060: Launcher_L_R
+    100062: LauncherUpperLower
+    100064: MiddleFrontMissile1
+    100066: MiddleFrontMissile2
+    100068: UpperTorpedo1_L
+    100070: UpperTorpedo1_R
+    100072: UpperTorpedo2_L
+    100074: UpperTorpedo2_R
+    400000: B_L
+    400002: B_R
+    400004: BackMissile1_L
+    400006: BackMissile1_R
+    400008: BackMissile2_L
+    400010: BackMissile2_R
+    400012: BackMissile3_L
+    400014: BackMissile3_R
+    400016: BackMissile4_L
+    400018: BackMissile4_R
+    400020: BackTorpedo_L
+    400022: BackTorpedo_R
+    400024: Barrel
+    400026: Beam4Back_L
+    400028: Beam4Back_R
+    400030: Beam4Front_L
+    400032: Beam4Front_R
+    400034: Body
+    400036: BTip_L
+    400038: BTip_R
+    400040: CannonBack
+    400042: CannonLower
+    400044: //RootNode
+    400046: FrontMissile3_L
+    400048: FrontMissile3_R
+    400050: FrontMissile4_L
+    400052: FrontMissile4_R
+    400054: FrontMissile5_L
+    400056: FrontMissile5_R
+    400058: Kripitera class destroyer _arm
+    400060: Launcher_L_R
+    400062: LauncherUpperLower
+    400064: MiddleFrontMissile1
+    400066: MiddleFrontMissile2
+    400068: UpperTorpedo1_L
+    400070: UpperTorpedo1_R
+    400072: UpperTorpedo2_L
+    400074: UpperTorpedo2_R
+    2100000: Body. 001
+    2100002: Nozzle. 001
+    2100004: Corn. 001
+    2100006: Nozzle_Warp. 001
+    2100008: Body line. 001
+    2100010: "Opening _\u9ED2.001"
+    2100012: Opening _ Yellow .001
+    2100014: Opening _ green. 001
+    2100016: Beam. 001
+    2100018: Torpedo .001
+    2100020: Muzzle 4.001
+    2100022: Muzzle 3.001
+    4300000: Body
+    9500000: //RootNode
+    13700000: Body
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Beam. 001
+    second: {fileID: 2100000, guid: 9ab9ceb3ed82f6b4480c635e205d7ca2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body line. 001
+    second: {fileID: 2100000, guid: 17a0c8dc395af8b49879a1029df9ff30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body. 001
+    second: {fileID: 2100000, guid: 6516cbb2924fcc54cb2feb58651c408d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Corn. 001
+    second: {fileID: 2100000, guid: 822ac8c1defe34f4ead9c35dfd7deaf2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Muzzle 3.001
+    second: {fileID: 2100000, guid: 482373738898dfb4794b187fe7649d81, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Muzzle 4.001
+    second: {fileID: 2100000, guid: 489564b64b4e7d243a0b1c49a94755c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nozzle. 001
+    second: {fileID: 2100000, guid: 8daccab39e034504a823c5993469dae1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nozzle_Warp. 001
+    second: {fileID: 2100000, guid: 474851dd63dc8bd48ab411995bd7a7af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Opening _ Yellow .001
+    second: {fileID: 2100000, guid: 5ef145db04249224299a5623f3b650f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Opening _ green. 001
+    second: {fileID: 2100000, guid: 07cfdfb654fd5e649ae64478b70c06a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Opening _\u9ED2.001"
+    second: {fileID: 2100000, guid: 3d896a66ce218274db07a7069a75c92b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Torpedo .001
+    second: {fileID: 2100000, guid: af5b674dc357e1a489bca2ba748914ea, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

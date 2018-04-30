@@ -1,0 +1,250 @@
+fileFormatVersion: 2
+guid: 04779281d7047e74e836dd6f5ad255a7
+timeCreated: 1523982715
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: BackCannon
+    100002: BackMissile1
+    100004: BackMissile2
+    100006: BackMissile3_L
+    100008: BackMissile3_R
+    100010: BackMissile4_L
+    100012: BackMissile4_R
+    100014: Beam1Back_L
+    100016: Beam1Back_R
+    100018: Beam1Front_L
+    100020: Beam1Front_R
+    100022: Beam3Back_L
+    100024: Beam3Back_R
+    100026: Beam3Front_L
+    100028: Beam3Front_R
+    100030: Beam4Back_L
+    100032: Beam4Back_R
+    100034: Beam4Front_L
+    100036: Beam4Front_R
+    100038: Body
+    100040: //RootNode
+    100042: Front1Cannon
+    100044: Kelkapia class high-speed cruiser _arm
+    100046: LowerCannon
+    100048: MiddleBeam1Back
+    100050: MiddleBeam1Front
+    100052: MiddleBeam3Back
+    100054: MiddleBeam3Front
+    100056: MiddleBeam4Back
+    100058: MiddleBeam4Front
+    100060: Nozzle
+    100062: Torpedo1_L
+    100064: Torpedo1_R
+    100066: Torpedo2_L
+    100068: Torpedo2_R
+    100070: UpperTorpedo1_L
+    100072: UpperTorpedo1_R
+    100074: UpperTorpedo2_L
+    100076: UpperTorpedo2_R
+    100078: UpperTorpedo3_L
+    100080: UpperTorpedo3_R
+    400000: BackCannon
+    400002: BackMissile1
+    400004: BackMissile2
+    400006: BackMissile3_L
+    400008: BackMissile3_R
+    400010: BackMissile4_L
+    400012: BackMissile4_R
+    400014: Beam1Back_L
+    400016: Beam1Back_R
+    400018: Beam1Front_L
+    400020: Beam1Front_R
+    400022: Beam3Back_L
+    400024: Beam3Back_R
+    400026: Beam3Front_L
+    400028: Beam3Front_R
+    400030: Beam4Back_L
+    400032: Beam4Back_R
+    400034: Beam4Front_L
+    400036: Beam4Front_R
+    400038: Body
+    400040: //RootNode
+    400042: Front1Cannon
+    400044: Kelkapia class high-speed cruiser _arm
+    400046: LowerCannon
+    400048: MiddleBeam1Back
+    400050: MiddleBeam1Front
+    400052: MiddleBeam3Back
+    400054: MiddleBeam3Front
+    400056: MiddleBeam4Back
+    400058: MiddleBeam4Front
+    400060: Nozzle
+    400062: Torpedo1_L
+    400064: Torpedo1_R
+    400066: Torpedo2_L
+    400068: Torpedo2_R
+    400070: UpperTorpedo1_L
+    400072: UpperTorpedo1_R
+    400074: UpperTorpedo2_L
+    400076: UpperTorpedo2_R
+    400078: UpperTorpedo3_L
+    400080: UpperTorpedo3_R
+    2100000: Body
+    2100002: Body line
+    2100004: Openings
+    2100006: Opening _ Yellow
+    2100008: Opening_Green
+    2100010: Bridge window
+    2100012: nozzle
+    2100014: Nozzle_Warp
+    2100016: beam
+    2100018: torpedo
+    2100020: Muzzle 1
+    2100022: Muzzle 3
+    2100024: Muzzle 4
+    4300000: Body
+    9500000: //RootNode
+    13700000: Body
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body
+    second: {fileID: 2100000, guid: 08c9121851c0a5f43aacfdba8fdfcbd3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body line
+    second: {fileID: 2100000, guid: 1958df9a205e7a840908f8e5ad7cc768, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bridge window
+    second: {fileID: 2100000, guid: b04d404c34e78644585be274e0372c4b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Muzzle 1
+    second: {fileID: 2100000, guid: 074df21467575584e94386c05e4d99c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Muzzle 3
+    second: {fileID: 2100000, guid: fe11e88640449364cbbe387354dae35d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Muzzle 4
+    second: {fileID: 2100000, guid: 2eb692737a3b5de4c9ba43c0ca5fec7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nozzle_Warp
+    second: {fileID: 2100000, guid: a5f721cacb76ca94dbded8d94a6e8f1d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Opening _ Yellow
+    second: {fileID: 2100000, guid: c3b150b7b5ef4044ea1e2a3f2b1f19fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Opening_Green
+    second: {fileID: 2100000, guid: 505143c926435ff4dbcdf73442fb027f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Openings
+    second: {fileID: 2100000, guid: e407097524bc12148ac920ae1bd2c405, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: beam
+    second: {fileID: 2100000, guid: 651648b5475a4334b94a0197cc486063, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nozzle
+    second: {fileID: 2100000, guid: e90bb011c48c3e54eb298e47be8ecd66, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: torpedo
+    second: {fileID: 2100000, guid: b6b23f5845d7694409723a553961ac4f, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
