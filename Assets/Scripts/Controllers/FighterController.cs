@@ -53,26 +53,23 @@ public class FighterController : ShipController {
             {
                 GetComponent<Seek>().target = closestTarget.transform.position;
             }
+            if ((CheckRange(closestTarget.transform.position) < shipAttackRange))
+            {
+                FireWeapons();
+            }
         }
         
     }
 
     public void FireWeapons()
     {
-        Debug.Log("Firing Weapon");
         if (!waitToFire && closestTarget != null)
         {
-            Debug.Log("Projectile");
             GameObject projectile = Instantiate(laserPrefab, transform.position, transform.rotation);
-            Debug.Log("rigidbody");
             Rigidbody rigidbody = projectile.GetComponent<Rigidbody>();
-            Debug.Log("velocity");
             rigidbody.velocity = (closestTarget.transform.position - transform.position).normalized * 100;
-            Debug.Log("waittofire");
             waitToFire = true;
-            Debug.Log("coroutine");
             StartCoroutine(WaitToFire());
-            Debug.Log("aftercoroutine");
         }
 
     }

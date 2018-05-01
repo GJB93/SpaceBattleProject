@@ -16,7 +16,7 @@ public class LaserImpact : MonoBehaviour {
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (!enemyLaser && !collision.gameObject.tag.Equals("Yamato") && !collision.gameObject.tag.Equals("World"))
+        if (!enemyLaser && !collision.gameObject.tag.Equals("Yamato") && !collision.gameObject.tag.Equals("World") && !collision.gameObject.tag.Equals("FriendlyFighter") && !collision.gameObject.tag.Equals("LeadFighter"))
         {
             explosion = Instantiate(explosionPrefab, collision.contacts[0].point, Quaternion.identity);
             StartCoroutine(EndEffect());
@@ -31,16 +31,11 @@ public class LaserImpact : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
     {
-        if (!enemyLaser && !other.gameObject.tag.Equals("Yamato") && !other.gameObject.tag.Equals("World"))
+        if (!enemyLaser && !other.gameObject.tag.Equals("Yamato") && !other.gameObject.tag.Equals("World") && !other.gameObject.tag.Equals("FriendlyFighter") && !other.gameObject.tag.Equals("LeadFighter"))
         {
             explosion = Instantiate(explosionPrefab, other.gameObject.GetComponent<Collider>().ClosestPointOnBounds(transform.position), Quaternion.identity);
             StartCoroutine(EndEffect());
             Destroy(other.gameObject);
-        }
-        else if (enemyLaser && !other.gameObject.tag.Equals("Yamato"))
-        {
-            explosion = Instantiate(explosionPrefab, other.gameObject.GetComponent<Collider>().ClosestPointOnBounds(transform.position), Quaternion.identity);
-            StartCoroutine(EndEffect());
         }
     }
 

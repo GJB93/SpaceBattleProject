@@ -111,7 +111,9 @@ public class YamatoController : ShipController {
                     fighter.AddComponent<OffsetPursue>().leader = leader.GetComponent<Boid>();
                     fighter.GetComponent<OffsetPursue>().weight = 1;
                 }
+                spawners.ElementAt(s).transform.DetachChildren();
             }
+            
         }
     }
 
