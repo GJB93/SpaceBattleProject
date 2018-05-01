@@ -9,14 +9,10 @@ public class ShipController : MonoBehaviour {
     public float fieldOfView = 90.0f;
     public LayerMask environmentMask = 0;
 
-    protected bool CheckRange(Vector3 target)
+    protected float CheckRange(Vector3 target)
     {
         float distanceToTarget = Vector3.Distance(transform.position, target);
-        if (distanceToTarget < shipAttackRange)
-        {
-            return true;
-        }
-        return false;
+        return distanceToTarget;
     }
 
     protected bool LookForTarget(Vector3 target)
@@ -25,10 +21,12 @@ public class ShipController : MonoBehaviour {
         if (Vector3.Angle(transform.forward, toTarget) < fieldOfView / 2)
         {
             float distanceToTarget = Vector3.Distance(transform.position, target);
+            
             if (Physics.Raycast(transform.position, toTarget, distanceToTarget, environmentMask))
             {
                 return true;
             }
+            
         }
         return false;
     }

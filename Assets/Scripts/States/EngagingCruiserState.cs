@@ -30,5 +30,13 @@ public class EngagingCruiserState : ShipState
 
     public override void Update()
     {
+        if (ship.GetComponent<OffsetPursue>() != null)
+        {
+            if (ship.GetComponent<OffsetPursue>().leader == null)
+            {
+                Object.Destroy(ship.GetComponent<OffsetPursue>());
+                ship.AddComponent<Pursue>().target = GameObject.FindGameObjectWithTag("Yamato").GetComponent<Boid>();
+            }
+        }
     }
 }

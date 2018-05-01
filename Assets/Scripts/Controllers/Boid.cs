@@ -63,13 +63,16 @@ public class Boid : MonoBehaviour {
 
         foreach (SteeringBehaviour b in behaviours)
         {
-            if (b.isActiveAndEnabled)
+            if (b != null)
             {
-                Vector3 behaviourForce = b.Calculate() * b.weight;
-                bool full = AccumulateForce(ref force, ref behaviourForce);
-                if (full)
+                if (b.isActiveAndEnabled)
                 {
-                    break;
+                    Vector3 behaviourForce = b.Calculate() * b.weight;
+                    bool full = AccumulateForce(ref force, ref behaviourForce);
+                    if (full)
+                    {
+                        break;
+                    }
                 }
             }
         }

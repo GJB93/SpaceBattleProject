@@ -19,6 +19,13 @@ TagManager:
   - Asteroid
   - BirdsEyeCamera
   - Laser
+  - EnemyFighter
+  - FriendlyFighter
+  - World
+  - BirdsnestCamera
+  - LeadFighter
+  - CockpitCamera
+  - Lead Enemy Fighter
   layers:
   - Default
   - TransparentFX

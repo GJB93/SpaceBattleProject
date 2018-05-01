@@ -22,12 +22,16 @@ public class OffsetPursue : SteeringBehaviour {
 
     public override Vector3 Calculate()
     {
-        worldTarget = leader.transform.TransformPoint(offset);
-        float dist = Vector3.Distance(worldTarget, transform.position);
-        float time = dist / boid.maxSpeed;
+        if(leader != null)
+        {
+            worldTarget = leader.transform.TransformPoint(offset);
+            float dist = Vector3.Distance(worldTarget, transform.position);
+            float time = dist / boid.maxSpeed;
 
-        Vector3 targetPos = worldTarget + (leader.velocity * time);
-        return boid.ArriveForce(targetPos, 10);
+            Vector3 targetPos = worldTarget + (leader.velocity * time);
+            return boid.ArriveForce(targetPos, 10);
+        }
+        return Vector3.zero;
     }
 
 }

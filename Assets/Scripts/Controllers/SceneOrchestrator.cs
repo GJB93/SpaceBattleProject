@@ -24,31 +24,35 @@ public class SceneOrchestrator : MonoBehaviour {
 	}
 	
 	void Update () {
-		if (GameObject.FindGameObjectWithTag("YamatoPath").GetComponent<Path>().next == 1 && !currentCamera.gameObject.tag.Equals("EnemyFleetCamera"))
+		if (GameObject.FindGameObjectWithTag("YamatoPath").GetComponent<Path>().next == 1 && !currentCamera.gameObject.tag.Equals("EnemyFleetCamera") 
+            && GameObject.FindGameObjectWithTag("EnemyFleetCamera") != null)
         {
             currentCamera = GameObject.FindGameObjectWithTag("EnemyFleetCamera").GetComponent<Camera>();
+            currentCamera.transform.LookAt(yamato.transform.position);
             stateMachine.ChangeState(new FollowCameraState(currentCamera));
         }
 
-        /*
-        foreach(GameObject enemy in enemyFleet)
+        if (!currentCamera.gameObject.tag.Equals("BirdsnestCamera") && yamato.GetComponent<YamatoController>().inRange && !yamato.GetComponent<YamatoController>().enemiesWiped)
         {
-            Vector3 toTarget = (enemy.transform.position - yamato.transform.position).normalized;
-            if(Vector3.Angle(enemy.transform.forward, toTarget) < enemyFov / 2)
+            currentCamera = GameObject.FindGameObjectWithTag("BirdsnestCamera").GetComponent<Camera>();
+            if(yamato.GetComponent<YamatoController>().closestTarget != null)
             {
-                float distanceToTarget = Vector3.Distance(enemy.transform.position, yamato.transform.position);
-                if (!Physics.Raycast(enemy.transform.position, toTarget, 1.0f, environmentMask))
+                currentCamera.GetComponent<FollowCamera>().target = yamato.GetComponent<YamatoController>().closestTarget.transform;
+            }
+            stateMachine.ChangeState(new FollowCameraState(currentCamera));
+        }
+        
+        if (!currentCamera.gameObject.tag.Equals("CockpitCamera") && yamato.GetComponent<YamatoController>().enemiesWiped)
+        {
+            GameObject leadFighter = GameObject.FindGameObjectWithTag("LeadFighter");
+            int count = leadFighter.transform.childCount;
+            for (int i = 0; i < count; i++)
+            {
+                if (leadFighter.transform.GetChild(i).tag == "CockpitCamera")
                 {
-                    Debug.Log("Yamato seen by enemy");
-                    //yamatoInFov = true;
+                    currentCamera = leadFighter.transform.GetChild(i).GetComponent<Camera>();
                 }
             }
-        }
-        */
-
-        if (!currentCamera.gameObject.tag.Equals("BirdsEyeCamera") && yamatoInFov)
-        {
-            currentCamera = GameObject.FindGameObjectWithTag("BirdsEyeCamera").GetComponent<Camera>();
             stateMachine.ChangeState(new FollowCameraState(currentCamera));
         }
     }

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class FollowCamera : MonoBehaviour {
 
-    public GameObject target = null;
+    public Transform target = null;
     
 	void Start () {
 		
@@ -13,7 +13,7 @@ public class FollowCamera : MonoBehaviour {
 	void Update () {
         if (target == null)
         {
-            transform.LookAt(transform.parent);
+            transform.LookAt(transform.parent.forward);
         }
         else
         {

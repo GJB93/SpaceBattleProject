@@ -10,7 +10,7 @@ public class CarrierController : EnemyController
     public int numOfFighters = 5;
 
     private bool engaging = false;
-    private List<Boid> leaders = new List<Boid>();
+    private GameObject leader;
 
     void Start()
     {
@@ -52,16 +52,19 @@ public class CarrierController : EnemyController
             for (int s = 0; s < spawners.Count; s += 1)
             {
                 GameObject fighter = Instantiate(fighterPrefab, spawners.ElementAt(s));
-                if(i == 0)
+                if (i == 0 && s == 0)
                 {
-                    leaders.Add(fighter.GetComponent<Boid>());
+                    leader = fighter;
+                    leader.AddComponent<Seek>().weight = 3;
+                    leader.tag = "Lead Enemy Fighter";
                 }
                 else
                 {
-                    fighter.AddComponent<OffsetPursue>().leader = leaders.ElementAt(s);
-                    fighter.GetComponent<OffsetPursue>().weight = 4;
+                    fighter.AddComponent<OffsetPursue>().leader = leader.GetComponent<Boid>();
+                    fighter.GetComponent<OffsetPursue>().weight = 1;
                     fighter.GetComponent<Wander>().weight = 0;
                 }
+                spawners.ElementAt(s).transform.DetachChildren();
             }
         }
     }

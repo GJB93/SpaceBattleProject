@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-public class CruiserController : EnemyController {
+public class BattleshipController : EnemyController
+{
 
     public Transform bodyTransform;
     public GameObject laserPrefab;
@@ -17,7 +18,6 @@ public class CruiserController : EnemyController {
         fleet = FindObjectsOfType<EnemyController>().ToArray();
         stateMachine = new StateMachine();
         yamato = GameObject.FindGameObjectWithTag("Yamato");
-        stateMachine.ChangeState(new IdleCruiserState(gameObject));
         bodyTransform = transform.GetChild(1);
         int count = bodyTransform.childCount;
         for (int i = 0; i < count; i++)
@@ -29,20 +29,22 @@ public class CruiserController : EnemyController {
         }
     }
 
-    void Update () {
-
+    void Update()
+    {
         if (yamatoSpotted && !engaging)
         {
             engaging = true;
             BroadcastYamatoLocation();
-            stateMachine.ChangeState(new FiringCruiserState(gameObject));
+            stateMachine.ChangeState(new FiringBattleshipState(gameObject));
         }
         else if (!yamatoSpotted)
         {
             yamatoSpotted = CheckRange(yamato.transform.position) < shipAttackRange;
         }
-
-        stateMachine.Update();
+        if (stateMachine.state != null)
+        {
+            stateMachine.Update();
+        }
     }
 
     public void FireWeapons()
@@ -58,7 +60,7 @@ public class CruiserController : EnemyController {
             waitToFire = true;
             StartCoroutine(WaitToFire());
         }
-        
+
     }
 
     IEnumerator WaitToFire()
